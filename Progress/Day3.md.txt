@@ -1,0 +1,40 @@
+Day 3 – Ticket Routing Automation via Flow Designer
+
+Objective:
+To configure automated workflows in ServiceNow using Flow Designer so that operational issues are automatically assigned to the correct support group based on their category.
+
+Activities Completed:
+
+Flow for Certificate-Related Issues:
+
+Trigger: New record creation or update in the Operations Related table.
+
+Condition: Issue field equals Certificate-related.
+
+Action: Assign the record to the Certificates Group.
+
+Flow for Platform-Related Issues:
+
+Trigger: New record creation or update in the Operations Related table.
+
+Conditions:
+
+Login issue
+
+404 error
+
+Expired user account
+
+Action: Assign the record to the Platform Group.
+
+Validation: Both workflows were built, tested for accuracy, saved, and activated successfully.
+
+Evidence: Screenshots collected for each step, including flow design, triggers, conditions, actions, and activation.
+
+Outputs:
+
+Update set exported with the automation flows.
+
+Screenshots stored in the project evidence folder.
+
+Documentation updated with flow configuration details.
