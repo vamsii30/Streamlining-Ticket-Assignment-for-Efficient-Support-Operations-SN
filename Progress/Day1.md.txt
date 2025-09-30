@@ -1,0 +1,22 @@
+Day 1 – Setup of Users, Groups, and Roles
+
+Objective:
+To establish the initial access framework in ServiceNow by creating users, defining groups, and assigning roles, ensuring clear responsibility and security alignment.
+
+Tasks Completed:
+
+User Accounts: Added two individual user records with unique details under System Security → Users.
+
+Group Setup: Created two groups through System Security → Groups to classify users based on their functions.
+
+Role Assignment: Designed two roles via System Security → Roles to manage tasks related to platform operations and certification activities.
+
+Proof of Work: Screenshots were taken to capture each stage (user addition, group creation, and role definition).
+
+Outputs:
+
+An update set exported with the configuration of Users, Groups, and Roles.
+
+Screenshots organized in a separate folder.
+
+Documentation updated to reflect the Day 1 configuration activities.
