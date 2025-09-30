@@ -1,0 +1,30 @@
+Day 2 – Creation of Custom Table and Security Controls
+
+Objective:
+To design a dedicated table for recording operational issues, structure it with appropriate fields, and secure it using role-based access and ACL policies.
+
+Tasks Executed:
+
+Table Setup: Developed a new table (Operations Related) under System Definition → Tables. Enabled both the Create and Mobile Create modules. Added required fields for capturing issue information.
+
+Choice Field Configuration: Customized the Issue field using Form Design with predefined options:
+
+Login failure
+
+404 page error
+
+Certification-related concerns
+
+Account expiration
+
+User–Group Mapping:
+
+Assigned Katherine Pierce to the Certificates Group with the Certification_role.
+
+Assigned Manne Niranjan to the Platform Group with the Platform_role.
+
+Access Restrictions: Applied permissions so only members with Platform_role or Certification_role have read/write access. Used the security_admin role to authorize secured updates.
+
+ACL Implementation: Created field-level ACLs under System Security → Access Control. Linked the admin role where necessary for additional privileges.
+
+Evidence: Screenshots taken for table creation, form configuration, user–group assignments, and ACL rules.
