@@ -1,4 +1,4 @@
-Optimizing Ticket Assignment for Effective Support in ServiceNow
+Streamlining Ticket Assignment for Efficient Support Operations ServiceNow
 
 This project focuses on building a structured and automated ticket assignment process in ServiceNow.
 The solution reduces manual intervention by ensuring that each issue is routed to the correct team, improving speed and accuracy in resolving requests.
